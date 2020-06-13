@@ -14,6 +14,6 @@ public class Spawning : MonoBehaviour
 
     public void spawnTetrimino()
     {
-        Instantiate(tetriminos[Random.Range(0, tetriminos.Length)], transform.position, Quaternion.identity);
+        GameObject tet = Instantiate(tetriminos[Random.Range(0, tetriminos.Length)], transform.position, Quaternion.identity);
     }
 }

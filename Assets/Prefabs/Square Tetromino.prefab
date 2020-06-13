@@ -211,6 +211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0937a6cce6fa2ec4bbc383212aa87ab4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UI: {fileID: 7265168544731567284, guid: c39db11d64bf6e9499bba773a5944da8, type: 3}
   previousTime: 0
   falltime: 0.8
   rotationPoint: {x: 0, y: 0, z: 0}
